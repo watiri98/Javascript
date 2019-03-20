@@ -1,0 +1,16 @@
+Explain what is declaration,definition and initialization.
+
+Declaration:It is creating a variable using a var keyword.
+Example var x;
+
+Definition:It is assigning a specified value to  the variable.
+Example var x= 10;
+
+Initialization:It is the allocation of memory for the variable by the 
+Javascript engine.
+Example var x = 10;
+            x=10
+ 
+
+
+
