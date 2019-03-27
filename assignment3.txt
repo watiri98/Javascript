@@ -1,0 +1,39 @@
+fruit_list = ["grapes","bananas","mangoes","melon","oranges","passion"]
+
+
+function printFruits(fruit_list)
+
+{
+
+console.log(fruit_list);
+
+}
+
+
+
+
+
+
+
+
+
+(6) ["grapes", "bananas", "mangoes", "melon", "oranges", "passion"]
+
+
+var fruit_index = prompt("from fruit_list take 3");
+
+
+console.log(fruit_list[fruit_index]);
+
+
+function takeFruit(fruit_list,fruit_index)
+
+
+{alert(fruit_list[fruit_index]);}
+
+
+
+VM200:2 melon
+
+
+undefined
