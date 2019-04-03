@@ -1,0 +1,32 @@
+fruits={"pineapples":100,"oranges":30,"cherry":50,"apples":40}
+
+
+{pineapples: 100, oranges: 30, cherry: 50, apples: 40}
+
+
+var quantity = 2
+
+
+undefined
+
+
+var price = fruits["oranges"]*quantity
+
+
+undefined
+
+
+function calculateFruitsCost (specific,qty){
+fruits = {"pineapples":100,"oranges":30,"cherry":50,"apples":40};
+
+
+	console.log(quantity + " " + " for KES " + price);}
+
+undefined
+
+
+calculateFruitsCost("oranges",2);
+
+
+VM650:3
+ 2  for KES 60
