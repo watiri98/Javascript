@@ -1,0 +1,8 @@
+                       DIFFERENCES BETWEEN NULL AND UNDEFINED
+NULL 	                                               UNDEFINED
+•It is not assigned.	                              It must be assigned a value.
+•The variable itself is absent.	                      The value for variable is absent.
+•Doesn’t carry out an arithmetic conversion.          In arithmetic conversion done on null it gives the value determined as zero.
+ It is an object. 	                              It is of type itself             
+
+
