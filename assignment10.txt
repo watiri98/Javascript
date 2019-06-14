@@ -1,0 +1,16 @@
+var body = document.body;
+body.style.backgroundColor = "silver";
+
+var h1 = document.getGetElementById("title");
+h1.style.color = "green";
+
+var h3 = document.getElementByTagName("h3");
+h3.style.textTransform = h3.toUpperCase();
+
+var myLi = document.createElement("li");
+myLi.innerHTML = "grapes";
+fruList.appendChild(myLi);
+
+var newLi = document.createElement("li");
+newLi.innerHTML = "brocolli";
+vegList.appendChild(newLi);
