@@ -1,11 +1,14 @@
 var body = document.body;
 body.style.backgroundColor = "silver";
 
-var h1 = document.getGetElementById("title");
+var h1 = document.getElementById("title");
 h1.style.color = "green";
 
-var h3 = document.getElementByTagName("h3");
-h3.style.textTransform = h3.toUpperCase();
+var h3  = document.getElementById("fruits");
+h3.style.textTransform = "upperCase";
+
+var h3  = document.getElementById("veges");
+h3.style.textTransform = "upperCase";
 
 var myLi = document.createElement("li");
 myLi.innerHTML = "grapes";
