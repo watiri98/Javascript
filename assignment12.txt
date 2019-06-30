@@ -3,7 +3,7 @@ var toggle =()=>{
   title.style.color= title.style.color=="green"? "silver":"green"
 
   };
-  setInterval(animate,1000);
+  setInterval(toggle,1000);
 
    myBtn.onclick = ()=>{
     var addFruit = document.getElementById('fruit');
