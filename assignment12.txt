@@ -1,0 +1,47 @@
+var animate =()=>{
+  var title = document.getElementById("title");
+  title.style.color= title.style.color=="green"? "silver":"green"
+
+  };
+  setInterval(animate,1000);
+
+   myBtn.onclick = ()=>{
+    var addFruit = document.getElementById('fruit');
+    var fruit = input.value
+    var fruits = document.getElementById('fruList');
+    var myFruit = document.createElement('li');
+    var textNode = document.createTextNode(inputValue);
+    myFruit.appendChild(textNode);
+    fruits.appendChild(myFruit);
+    }
+   
+  var veges = document.getElementsById("vegetables");
+    for (i = 0; i < vegList.length; i++) {
+    list2[i].addEventListener("click", function() {
+    this.myList.toggle("active");
+    var list = this.nextElementSibling;
+    if (list.style.display === "block") {
+      list.style.display = "none";
+    } else {
+      list.style.display = "block";
+    }
+  });
+  }
+var fruits = document.getElementById("fruList");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("fruList").click();
+  }
+});
+
+
+var veges = document.getElementById("vegList");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("vegList").click();
+  }
+});
+
+
